@@ -1,4 +1,4 @@
-# Lab 15 - Recursion
+# Lab 10 - Recursion
 This lab will focus upon implementing some recursive methods. You have previously learned about recursion from past lectures and this lab will help you put some of that knowledge to use!
 
 For ease of access, here is the [javadoc](https://www.cs.colostate.edu/~cs163/javadoc/lab15/package-summary.html). 
