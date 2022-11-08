@@ -1,7 +1,7 @@
 # Lab 10 - Recursion
 This lab will focus upon implementing some recursive methods. You have previously learned about recursion from past lectures and this lab will help you put some of that knowledge to use!
 
-For ease of access, here is the [javadoc](file:///C:/Users/inter/Downloads/Lab10Recursion-main/Lab10Recursion-main/docs/index.html). 
+For ease of access, here is the [javadoc](Lab10Recursion-main/docs/index.html). 
 
 ## Pre-Step: Walkthrough & Compilation
 This lab is focused upon your implementation of recursive methods, but it may help you to walkthrough the program, notably the `methodToCall()` method because it contains a `switch` statement that y'all have recently learned about.
