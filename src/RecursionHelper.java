@@ -8,14 +8,14 @@ public class RecursionHelper {
         //TODO: Student
         return "";
     }
-    /** Self Explanation - Remember to detail your base and recursive cases.
+    /** Self Explanation - Remember to detail your base and recursive cases. -- it may help to think of these as for/while loops first
      * 
      * 
      * 
      */
-    public int armstrongNumber(int num, int total) {
+    public int pow(int x, int y) {
         //TODO: Student
-        return -1;
+        return 0;
     }
     /** Self Explanation - Remember to detail your base and recursive cases.
      * 
