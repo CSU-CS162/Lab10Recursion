@@ -14,11 +14,12 @@ public class RecursionMain {
                         String reversed = rHelp.reverseString(toReverse);
                         System.out.println("Your reversed String: \n" + reversed);
                         break;
-                case 2: System.out.println("Enter the number you would like check:");
+                case 2: System.out.println("Enter number you would like to get the power of: ");
                         int input = scnr.nextInt();
-                        int output = rHelp.armstrongNumber(input, 0);
-                        if(input == output) System.out.println(input + " is an Armstrong number.");
-                        else System.out.println(input + " is not an Armstrong number.");
+                        System.out.println("Now what would you like that to the power of?: ");
+                        int input2 = scnr.nextInt();
+                        int output = rHelp.pow(input, input2);
+                        System.out.println(String.format("%d is %d to the power of %d.", output, input, input2));
                         break;
                 case 3: System.out.println("Enter word to check for palindromes: ");
                         String toCheck = scnr.next();
@@ -36,7 +37,7 @@ public class RecursionMain {
     public static void printChoices() {
         System.out.println("What method would you like to call?");
         System.out.println("1. reverseString()");
-        System.out.println("2. armstrongNumber()");
+        System.out.println("2. pow()");
         System.out.println("3. palindromeChecker()");
         System.out.println("Please type 1, 2, or 3.");
         System.out.println("Or type 0 to exit.");
